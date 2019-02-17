@@ -5,10 +5,6 @@ import pymongo
 from logRepository import *
 
 
-'''
-Created on 13th Feb 2019 @EZSAHRA
-'''
-
 sendLog=logRepository()
 
 ### Program for Creating server sending to mongoDB for sending Logger ###
