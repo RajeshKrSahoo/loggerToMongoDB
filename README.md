@@ -8,3 +8,7 @@ Sending log information from multiple client BOTs via flask server to store in m
 ### Architecture for Logging into MongoDB using Python
 
 ![logtomongodatabase 1](https://user-images.githubusercontent.com/27301175/52909701-e2136480-32b2-11e9-9dea-2560813dfd1b.jpg)
+
+
+### Python codes attached for Logging
+I used local Flask server and mongoDB.
