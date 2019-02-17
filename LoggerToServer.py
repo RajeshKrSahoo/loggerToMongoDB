@@ -4,10 +4,6 @@ import os
 import logging.handlers
 import time
 
-# server = '127.0.0.1:5000'
-# path = '/'
-# method = 'GET'
-
 
 class ClsLogger(object):
   
