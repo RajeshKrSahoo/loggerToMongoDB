@@ -14,18 +14,8 @@ class logRepository():
 
     """
     """ Below are the db connection parameters"""
-    dbHostName = "10.184.19.230"  
-    dbUserName = "botNest"
-    dbPassword = "kgf@2018"
-    dbPort = 27017
+   
     def __init__(self):
-        
-        # try:
-        #     self.server = SSHTunnelForwarder(self.dbHostName,ssh_username=self.dbUserName,ssh_password=self.dbPassword,remote_bind_address=('127.0.0.1',self.dbPort))
-        #     self.server.start()
-        # except Exception as exc:
-        #     print("could not connect server because")
-        #     print (exc)   
         try:
             self.connection = pymongo.MongoClient('mongodb://localhost:27017/')
             self.database = self.connection["logger"]
