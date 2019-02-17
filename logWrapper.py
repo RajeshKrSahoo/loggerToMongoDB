@@ -1,10 +1,6 @@
 from LoggerToServer import *
 import sys,os
 
-"""
-Created by EZSAHRA @16th Feb 2019
-
-"""
 
 class logWrapper(ClsLogger):
     def __init__(self,botId,botInstanceId,server,path):
